@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration</title>
+</head>
+<body>
+    <form>
+        <label for="name"> Name</label><br>
+        <input type="text" name="name" id="name"> <br>
+        <label for="dob"> Date of Birth</label><br>
+        <input type="text" name="dob" id="dob"> <br>
+        <legend> Gender: </legend> <br>
+        <input type="radio" name="gender" id="male" value="Male"> 
+        <label for="male"> Male </label>
+        <br>
+        <input type="radio" name="gender" id="female" value="Female"> 
+        <label for="female"> Female </label>
+        <br>
+        <label for="address"> Address</label><br>
+        <input type="text" name="address" id="address"> <br>
+        <label for="tel"> Telephone </label><br>
+        <input type="number" name="tel" id="tel"> <br>
+        <label for="email"> Email Address</label><br>
+        <input type="email" name="email" id="email"> <br>
+        <fieldset>
+            <label>Courses: </label>
+            <select name="courses" id="courses">
+                <option value=" ">-- Select Course of Choice --</option>
+                <option value="Web Tech"> Web Technology </option>
+                <option value="Python"> Python </option>
+                <option value="Database"> Database </option>
+                <option value="Java"> Java </option>
+            </select>
+        </fieldset> <br>
+        <input type="submit" name="register" id="register" value="Register"> <br>
+        <input type="reset" name="cancel" id="cancel" value="Cancel"> <br>
+    </form>
+</body>
+</html>
